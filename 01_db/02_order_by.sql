@@ -66,5 +66,5 @@ SELECT
 -- 4) 내림차순에서 null이 먼저 오도록 바꿈
 SELECT 
       * 
-   FROM tb1_category 
+   FROM tbl_category 
  ORDER BY -ref_category_code ASC;

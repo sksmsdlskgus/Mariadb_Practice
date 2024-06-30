@@ -8,6 +8,9 @@ SELECT
      , menu_price
   FROM tbl_menu;
   
+SELECT * FROM tbl_menu;
+SELECT * FROM tbl_category;
+  
 SELECT
        menu_code
      , menu_name
@@ -15,7 +18,7 @@ SELECT
      , category_code
      , orderable_status
   FROM tbl_menu
-  JOIN tb1_category ON tb1_menu.category_code = tb1_category.category_code;
+  JOIN tbl_category ON tbl_menu.category_code = tbl_category.category_code;
   
   
   -- -----------------------------------------------------------
