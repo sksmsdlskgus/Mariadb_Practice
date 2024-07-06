@@ -5,7 +5,7 @@
 -- as = 왼쪽의 친구를 오른쪽의 친구로 전환해줘.
 SELECT CAST(AVG(menu_price) AS UNSIGNED INTEGER) AS '가격평균'
    FROM tbl_menu;
-DESC tb1_menu;
+DESC tbl_menu;
 
 -- 소수점 이하 한자리 까지만 표기할 수 있다.
 SELECT CAST(AVG(menu_price) AS FLOAT) AS '가격평균'
